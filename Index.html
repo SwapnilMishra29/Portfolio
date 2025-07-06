@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapnil - Developer Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Swapnil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="about">
+            <div class="hero-content">
+                <h1>Hi, My name is <span class="purple">Swapnil</span></h1>
+                <p>and I'm a passionate <span id="element"></span></p>
+            </div>
+            <div class="hero-image">
+                <img src="pg.png" alt="Swapnil's Profile Picture">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="projects-section" id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <div class="project-details">
+                    <h3>WonderLust</h3>
+                    <p>WonderLust is a full-stack CRUD-based marketplace for property listings. Users can create, edit, and delete listings with image uploads and secure authentication. Role-based authorization is implemented with Passport.js and session cookies. Client and server-side validation is done using Bootstrap and Joi respectively. Cloudinary is used for CDN-based image handling, optimizing image load. The application includes a review system with a 5-star widget and emoji comments. CI/CD is integrated via GitHub Actions and deployment is on Render.</p>
+                    <a href="https://wonderlust-gn3g.onrender.com/" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-image">
+                    <img src="project.jpeg" alt="WonderLust Project Screenshot">
+                </div>
+            </div>
+            </section>
+
+        <hr>
+
+        <section class="contact-section" id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email or connect with me on social media.</p>
+            <div class="contact-links">
+                <a href="mailto:mishraswapnil^10@gmail.com" class="contact-button">Email Me</a>
+                <a href="https://www.linkedin.com/in/swapnil-mishra70/" target="_blank" class="contact-button">LinkedIn</a>
+                <a href="https://github.com/SwapnilMishra70/mazorproject" target="_blank" class="contact-button">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Swapnil. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Frontend Developer', 'Backend Developer'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+    </body>
+</html>
