@@ -111,7 +111,7 @@ export const Hero = () => {
           asChild
           className="bg-gray-900 hover:bg-black text-white hover:scale-105 transition-transform"
         >
-          <a href="https://drive.google.com/file/d/1Ru2ChPVMtYzAo4afWD1ysmZm53y_jbOc/view?usp=drive_link.pdf" download="Swapnil_Mishra_Resume">
+          <a href="https://drive.google.com/file/d/1nwRRIfwa263cd6dCekDiXysj5_RG_C0V/view?usp=drive_link" download="Swapnil_Mishra_Resume">
             <Download className="mr-2 h-5 w-5" />
             Resume
           </a>

@@ -21,8 +21,8 @@ const projects = [
     description:
       "Developed authentication, CRUD features, and responsive UI. Achieved a 95/100 Lighthouse accessibility score.",
     period: "Mar 2025 - Jun 2025",
-    liveUrl: "https://food-del-frontend-60wy.onrender.com/",
-    githubUrl: "https://github.com/SwapnilMishra29/FOOD-dev",
+   liveUrl: "https://wonderlust-gn3g.onrender.com/",
+    githubUrl: "https://github.com/SwapnilMishra29/wonderLust",
     image: "/projects/wonderlust.jpg",
     tags: ["MERN", "CRUD", "Responsive UI", "Accessibility"],
   },
@@ -32,8 +32,9 @@ const projects = [
     description:
       "Implemented real-time order tracking, Stripe payments, and an admin dashboard for restaurant management.",
     period: "Aug 2025 - Sept 2025",
-    liveUrl: "https://wonderlust-gn3g.onrender.com/",
-    githubUrl: "https://github.com/SwapnilMishra29/wonderLust",
+    liveUrl: "https://food-del-frontend-60wy.onrender.com/",
+    githubUrl: "https://github.com/SwapnilMishra29/FOOD-dev",
+    
     image: "/projects/Tomato.jpg",
     tags: ["MERN", "Stripe", "Realtime", "Admin Panel"],
   },
